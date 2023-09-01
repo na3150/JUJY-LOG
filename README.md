@@ -1,5 +1,5 @@
 # 🦄 JUJY-LOG
-JUJY-LOG is created by customizing [morethan-log](https://github.com/morethanmin/morethan-log) open source. This web contains brief introductions to team members and various documents.
+JUJY-LOG is created by customizing [morethan-log](https://github.com/morethanmin/morethan-log) open source. This web contains brief introductions to team members and various documents. You can check the jujy-log team repo [here](https://github.com/cloud-club/JUJY-LOG). Also, please check the [Wiki](https://github.com/na3150/JUJY-LOG/wiki/%F0%9F%9B%A0%EF%B8%8F-Trouble-Shooting) for the troubleshooting process.
 <br>
 
 ## 🕹️ Features
