@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: jujy-deploy
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: jujy
+  template:
+    metadata:
+      labels:
+        app: jujy
+    spec:
+      containers:
+        - name: jujylog
+          image: 362178765990.dkr.ecr.us-east-1.amazonaws.com/jujy-log:48263c8
+          ports:
+            - containerPort: 3000
+          resources:
+            requests:
+              cpu: 200m
+            limits:
+              cpu: 200m
