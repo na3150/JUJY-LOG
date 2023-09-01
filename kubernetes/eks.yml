@@ -22,17 +22,7 @@ iam:
         name: aws-load-balancer-controller #SA 계정 이름
         namespace: kube-system
       wellKnownPolicies:
-        awsLoadBalancerController: true #계정에 권한 부여 : ingress를 만들 때 사용
-    - metadata:
-        name: ebs-csi-controller-sa #SA 계정 이름
-        namespace: kube-system
-      wellKnownPolicies:
-        ebsCSIController: true #계정에 권한 부여 : ebs
-    - metadata: 
-        name: cluster-autoscaler #SA 계정 이름
-        namespace: kube-system
-      wellKnownPolicies:
-        autoScaler: true #계정에 권한 부여
+        awsLoadBalancerController: true #계정에 권한 부여 : nlb,alb를 만들 때 사용
 
 # CloudWatch Logging : 모든 로그 활성화
 cloudWatch:
